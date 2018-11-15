@@ -9,6 +9,7 @@ import java.awt.Color;
 public class ShepardFairey
 {
     private ColorManipulator manipulator;
+    private Picture picture;
 
     private static final Color OFF_WHITE = new Color( 248, 229, 175 );
     private static final Color LIGHT_BLUE = new Color( 121, 149, 159 );
@@ -18,6 +19,7 @@ public class ShepardFairey
     public ShepardFairey( Picture newPicture )
     {
         this.manipulator = new ColorManipulator( newPicture );
+        this.picture = newPicture;
     }
 
     /**
