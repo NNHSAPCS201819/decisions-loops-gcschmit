@@ -61,12 +61,12 @@ public class CommonLoopAlgorithms
    {
    }
 
-   /*
-    * Loop Algorithm #6: Compare Adjacent Values
-    * reads a series of numbers (ends with a letter)
-    * if an adjacent duplicate number is entered, the loop is exited
-    * @return the adjacent duplicate number that was entered
-    */
+    /*
+     * Loop Algorithm #6: Compare Adjacent Values
+     * reads a series of numbers until an adjacent duplicate
+     * number is entered
+     * @return the adjacent duplicate number that was entered
+     */
    public static int compareAdjacent()
    {
    }
